@@ -8,6 +8,8 @@
 
 #import "LYSViewController.h"
 
+#import "LYSGoogleAd.h"
+
 @interface LYSViewController ()
 
 @end
@@ -18,7 +20,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [LYSGoogleAd lys_adBannerUnitID:@"ca-app-pub-3940256099942544/2934735716"];
+    
+    [LYSGoogleAd lys_adInterstitialUnitID:@"ca-app-pub-3940256099942544/4411468910"];
+    
+    
+    [LYSGoogleAd lys_showGadBannerVC:self];
+    
 }
+
+
+
+- (IBAction)touchInterstitial:(id)sender {
+    
+    [LYSGoogleAd lys_showInterstitialVC:self];
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/3050700400@qq.com/LYSGoogleAd'
+  s.homepage         = 'https://github.com/MrLiuYS/LYSGoogleAd'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '3050700400@qq.com' => '3050700400@qq.com' }
-  s.source           = { :git => 'https://github.com/3050700400@qq.com/LYSGoogleAd.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'MrLiuYS' => '3050700400@qq.com' }
+  s.source           = { :git => 'https://github.com/MrLiuYS/LYSGoogleAd', :tag => s.version.to_s }
+
 
   s.ios.deployment_target = '8.0'
 
@@ -38,5 +38,9 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Google-AdMob-Ads-SDK', '~> 6.12.2'
+#s.dependency 'Firebase/Core'
+#s.dependency 'Firebase/AdMob'
+
+#s.dependency 'Google-Mobile-Ads-SDK'
+
 end
