@@ -3,6 +3,8 @@ use_frameworks!
 target 'LYSGoogleAd_Example' do
   pod 'LYSGoogleAd', :path => '../'
 
+  pod 'Google-AdMob-Ads-SDK', '~> 6.12.2'
+
   target 'LYSGoogleAd_Tests' do
     inherit! :search_paths
 

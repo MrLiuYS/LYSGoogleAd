@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Google-AdMob-Ads-SDK (6.12.2)
+  - LYSGoogleAd (0.1.0):
+    - Google-AdMob-Ads-SDK (~> 6.12.2)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Google-AdMob-Ads-SDK (~> 6.12.2)
+  - LYSGoogleAd (from `../`)
+
+EXTERNAL SOURCES:
+  LYSGoogleAd:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Google-AdMob-Ads-SDK: ac0ee01532f1bd6afd59847b05b69ac3df6b1c73
+  LYSGoogleAd: 685a4979440a9a6bf53e495c405b5dde04f64f2b
+
+PODFILE CHECKSUM: 7adb993ed54f6de1d7c39f307007292bb3d12409
+
+COCOAPODS: 1.1.1
