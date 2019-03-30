@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D8ACFAB1E6AA24A005E3871 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0D8ACFA61E6AA24A005E3871 /* .gitkeep */; };
-		0D8ACFAC1E6AA24A005E3871 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0D8ACFA81E6AA24A005E3871 /* .gitkeep */; };
 		0D8ACFAD1E6AA24A005E3871 /* LYSGoogleAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8ACFAA1E6AA24A005E3871 /* LYSGoogleAd.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -40,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D8ACFA61E6AA24A005E3871 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		0D8ACFA81E6AA24A005E3871 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		0D8ACFA91E6AA24A005E3871 /* LYSGoogleAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSGoogleAd.h; sourceTree = "<group>"; };
 		0D8ACFAA1E6AA24A005E3871 /* LYSGoogleAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSGoogleAd.m; sourceTree = "<group>"; };
 		26C60AF691789FEFC052B1D3 /* Pods-LYSGoogleAd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYSGoogleAd_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYSGoogleAd_Tests/Pods-LYSGoogleAd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,7 +111,6 @@
 		0D8ACFA51E6AA24A005E3871 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0D8ACFA61E6AA24A005E3871 /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -123,7 +118,6 @@
 		0D8ACFA71E6AA24A005E3871 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0D8ACFA81E6AA24A005E3871 /* .gitkeep */,
 				0D8ACFA91E6AA24A005E3871 /* LYSGoogleAd.h */,
 				0D8ACFAA1E6AA24A005E3871 /* LYSGoogleAd.m */,
 			);
@@ -244,7 +238,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				5F2F35A77FF88D79E1254870 /* [CP] Embed Pods Frameworks */,
-				572789E7DB1DBE20085EAD33 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,8 +256,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6319CE0A92CA971515261549 /* [CP] Embed Pods Frameworks */,
-				22140F19889C89D0E10F563B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,8 +309,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				0D8ACFAB1E6AA24A005E3871 /* .gitkeep in Resources */,
-				0D8ACFAC1E6AA24A005E3871 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -336,64 +325,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22140F19889C89D0E10F563B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYSGoogleAd_Tests/Pods-LYSGoogleAd_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		572789E7DB1DBE20085EAD33 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYSGoogleAd_Example/Pods-LYSGoogleAd_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5F2F35A77FF88D79E1254870 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYSGoogleAd_Example/Pods-LYSGoogleAd_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYSGoogleAd_Example/Pods-LYSGoogleAd_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6319CE0A92CA971515261549 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYSGoogleAd_Tests/Pods-LYSGoogleAd_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYSGoogleAd_Example/Pods-LYSGoogleAd_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6D3B15EA41FA3C67B5DDC2DD /* [CP] Check Pods Manifest.lock */ = {
@@ -402,13 +353,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYSGoogleAd_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		88879ABA30ACDCFB9D44DA18 /* [CP] Check Pods Manifest.lock */ = {
@@ -417,13 +371,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYSGoogleAd_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -38,7 +38,7 @@
         [vc.view addSubview:banner];
         
         [banner mas_makeConstraints:^(MASConstraintMaker *make){
-            make.bottom.mas_equalTo(0);
+            make.bottom.mas_equalTo(vc.mas_bottomLayoutGuideTop);
             make.height.mas_equalTo(50);
             make.width.mas_equalTo(320);
             make.centerX.mas_equalTo(vc.view.mas_centerX);

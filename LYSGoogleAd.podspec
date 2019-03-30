@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYSGoogleAd'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'GoogleAd的简单封装'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
-s.dependency 'Google-Mobile-Ads-SDK'
-s.dependency 'Masonry', '~> 1.0.2'
+  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'Masonry'
 
 end
